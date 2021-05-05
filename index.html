@@ -13,44 +13,32 @@
 </head>
 <body>
    <header>
-      <nav class="navbar navbar-expand-lg">
-         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Cecilia Rossi-Garci&#769;a</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">about me</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        projects
-                     </a>
-                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">project 1</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">project 2</a></li>
-                        <li><a class="dropdown-item" href="#">project 3</a></li>
-                        <li><a class="dropdown-item" href="#">project 4</a></li>
-                     </ul>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">contact me</a>
-                  </li>
-               </ul>
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+         <a class="navbar-brand" href="#"><span>Cecilia Rossi-Garc&#237a</span></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse nav justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+               <a class="nav-link" href="#">about me</a>
+               <a class="nav-link" href="#">projects</a>
+               <a class="nav-link" href="#">contact me</a>
             </div>
          </div>
       </nav>
    </header>
 
    <main>
-      <div id="hero"></div>
+      <div class="bg"></div>
 
-      <section id="about-me">
-         <div id="bio-text"></div>
-         <div id="about-me-img"></div>
+      <section id="about-me" class="container">
+         <div class="row justify-content-center">
+            <div id="about-me-img" class="col-5"></div>
+            <div id="bio-text" class="col-7">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim repudiandae inventore omnis deleniti nesciunt cupiditate 
+               ab quod eius dolore perferendis, obcaecati amet excepturi! Saepe sit dignissimos atque laboriosam, ipsum possimus.</p>
+            </div>
+         </div>
       </section>
 
       <section id="projects">
