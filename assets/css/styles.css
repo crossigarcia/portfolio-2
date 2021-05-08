@@ -1,37 +1,45 @@
-/* body, html {
-  height: 100%;
-}
-
-body {
-  background-image: url("../images/background.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-body, html {
-  height: 100%;
-}
-
-body {
-   background-color: rgba(255, 33, 156, 1);
-}
-
-.navbar {
-   background-color: rgba(255, 33, 156, 0.3);
+* {
    font-family: 'Montserrat', sans-serif;
 }
 
-.navbar span {
+:root {
+   --island-blue: #2febdb;
+   /* rgb: 47, 235, 219 */
+   --yellow-green: #e4ff6b;
+   /* rgb: 228, 255, 107 */
+   --hot-pink: #ff4f9b;
+   /* rgb: 255, 79, 155 */
+   --coral: #ff809d;
+   /*rgb: 255, 128, 157 */
+   --dark-island: #017a70;
+   /*rgb: 1, 122, 112*/
+}
+
+.navbar {
+   background-color: var(--coral);
+}
+
+.navbar-brand span {
    font-family: 'Righteous', cursive;
    font-size: 1.5em;
    margin-left: 15px;
    color: white;
 }
 
+.navbar-nav span {
+   color: white;
+   font-family: 'Montserrat', sans-serif;
+   margin: 0 5px 0 25px;
+}
+
 #about-me {
-   background-color: rgba(16, 190, 209, 0.5);
    margin-top: 50px;
+   box-shadow: 9px 9px 10px rgba(47, 235, 219, 0.7);
+
+}
+
+#about-me h2 {
+   color: var(--coral);
 }
 
 #about-me-img {
@@ -43,5 +51,6 @@ body {
 
 #bio-text {
    margin: 30px 0 auto 10px;
+   text-align: justify;
 }
 
