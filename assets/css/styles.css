@@ -25,10 +25,38 @@ h1 {
    font-family: 'Righteous', sans-serif;
 }
 
-.dropdown {
-   margin: 20px;
+#left-content {
+   padding: 40px 10px 0 10px;
 }
 
-#personal-info {
-   margin-top: 100px;
+#right-panel {
+   margin-top: 20px;
+}
+
+.card {
+   margin: 5px;
+}
+
+.card-img-overlay {
+   opacity: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+} 
+
+.card-title {
+   display: flex;
+   font-size: 50px;
+   text-align: center;
+}
+
+.card-info {
+   text-align: center;
+}
+
+.card-img-overlay:hover {
+   opacity: 1;
+   background-color: rgba(1, 122, 112, 0.7);
 }
