@@ -15,37 +15,42 @@
    <main class="row justify-space-around">
       <section id="left-panel" class="col-3">
          <div id="left-content">
-            <h1 id="my-name">Cecilia Rossi-Garci&#769;a</h1>
-               <!-- <img src="" alt="portrait of the developer, Cecilia Rossi-Garcia"> -->
+            <a href="index.html" id="my-name"><h1>Cecilia Rossi-Garci&#769;a</h1></a>
+               <div id="picture"></div> 
                <h2 class="text-title">about me</h2>
                <p>
-                  A Puerto Rican transplant to the Bay Area, formerly a Photographer now a Full Stack Developer.
+                  A transplant to the Bay Area, formerly a Photographer now a Full Stack Developer.
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis molestiae ex at unde nisi, 
                   placeat quibusdam quo tempore ea recusandae ratione ullam sunt, neque hic labore asperiores in!
                </p>
 
                <div class="dropdown">
-                  <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <button class="btn btn-outline btn-lg dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                      projects
                   </button>
                   <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                     <button class="dropdown-item" type="button">what's for dinner</button>
-                     <button class="dropdown-item" type="button">weather dashboard</button>
-                     <button class="dropdown-item" type="button">work day scheduler</button>
-                     <button class="dropdown-item" type="button">git it done</button>
-                     <button class="dropdown-item" type="button">robot gladiators</button>
+                     <a class="dropdown-item" href="#whats-for-dinner">what's for dinner</a>
+                     <a class="dropdown-item" href="#weather-dashboard">weather dashboard</a>
+                     <a class="dropdown-item" href="#work-day-scheduler">work day scheduler</a>
+                     <a class="dropdown-item" href="#git-it-done">git it done</a>
+                     <a class="dropdown-item" href="#taskmaster-pro">taskmaster pro</a>
+                     <a class="dropdown-item" href="#taskinator">taskinator</a>
+                     <a class="dropdown-item" href="#robot-gladiators">robot gladiators</a>
                   </div>
                </div>
 
                <h2 class="text-title">contact</h2>
                <form>
                   <div class="form-group">
+                     <input type="text" class="form-control" id="contact-name" placeholder="name">
+                  </div>
+                  <div class="form-group">
                      <input type="email" class="form-control" id="email-input" placeholder="email" aria-describedby="contactFormEmailInput">
                   </div>
                   <div class="form-group">
-                     <input type="text" class="form-control" id="text-input" placeholder="your message">
+                     <textarea class="form-control" id="text-input" placeholder="message"></textarea>
                   </div>
-                  <button type="submit" class="btn btn-light">submit</button>
+                  <button type="submit" class="btn btn-light submit-btn">submit</button>
                </form>
          </div>
       </section>
@@ -53,20 +58,21 @@
       <section id="right-panel" class="col-9">
          <div class="row row-cols-1 row-cols-md-2">
                <div class="col mb-4">
-                  <div class="card bd-dark">
+                  <div class="card bd-dark" id="whats-for-dinner">
                      <img src="./assets/images/whats-for-dinner-app.jpg" class="card-img" alt="what's for dinner application screenshot">
                      <div class="card-img-overlay">
                         <p class="card-title">What's For Dinner</p>
                         <p class="card-info">
                            An application that will allow the user to get ideas for meals by searching 
-                           for recipes either by category or keyword.
+                           for recipes either by category or keyword. </p><br>
+                           Dev Team: Chitra Padmanabhan, Nico Petelo &#38; Rogelio Galicia 
                         </p>
                         <a class="link" target="_blank" href="https://nicopetelo.github.io/whats-for-dinner/">go to application</a>
                      </div>
                   </div>
                </div>
                <div class="col mb-4">
-                  <div class="card bd-dark">
+                  <div class="card bd-dark" id="weather-dashboard">
                      <img src="./assets/images/weather-dashboard-app.jpg" class="card-img" alt="weather dashboard application screenshot">
                      <div class="card-img-overlay">
                         <p class="card-title">Weather Dashboard</p>
@@ -74,12 +80,12 @@
                            An application that will allow users to search for city names and get their current 
                            weather conditions as well as a five day forecast.
                         </p>
-                        <button class="btn btn-light">go to application</button>
+                        <a class="link" target="_blank" href="https://crossigarcia.github.io/weather-dashboard/">go to application</a>
                      </div>
                   </div>
                </div>
                <div class="col mb-4">
-                  <div class="card bd-dark">
+                  <div class="card bd-dark" id="work-day-scheduler">
                      <img src="./assets/images/work-day-scheduler-app.jpg" class="card-img" alt="work day scheduler application screenshot">
                      <div class="card-img-overlay">
                         <p class="card-title">Work Day Scheduler</p>
@@ -87,12 +93,12 @@
                            An application that will display color coded time-blocks representing the hours in a work day 
                            and allow users to edit each block to schedule events.
                         </p>
-                        <button class="btn btn-light">go to application</button>
+                        <a class="link" target="_blank" href="https://crossigarcia.github.io/day-planner/">go to application</a>
                      </div>
                   </div>
                </div>
                <div class="col mb-4">
-                  <div class="card bd-dark">
+                  <div class="card bd-dark" id="git-it-done">
                      <img src="./assets/images/git-it-done-application.jpg" class="card-img" alt="git it done application screenshot">
                      <div class="card-img-overlay">
                         <p class="card-title">Git-it Done</p>
@@ -100,12 +106,38 @@
                            An application that will allow users to search for GitHub usernames and see a list of repositories under that username. 
                            When a repository name is selected the user will then be able to see any issues within that repo.
                         </p>
-                        <button class="btn btn-light">go to application</button>
+                        <a class="link" target="_blank" href="https://crossigarcia.github.io/git-it-done/">go to application</a>
                      </div>
                   </div>
                </div>
                <div class="col mb-4">
-                  <div class="card bd-dark">
+                  <div class="card bd-dark" id="taskmaster-pro">
+                     <img src="./assets/images/taskmaster-app.jpg" class="card-img" alt="taskmaster pro application screenshot">
+                     <div class="card-img-overlay">
+                        <p class="card-title">Taskmaster Pro</p>
+                        <p class="card-info">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium natus aperiam nihil iusto, enim dicta! Deleniti earum est 
+                           iusto maxime commodi laudantium ipsam blanditiis doloribus consequuntur mollitia, dolor iste maiores.
+                        </p>
+                        <a class="link" target="_blank" href="https://crossigarcia.github.io/taskmaster-pro/">go to application</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col mb-4">
+                  <div class="card bd-dark" id="taskinator">
+                     <img src="./assets/images/taskinator-app.jpg" class="card-img" alt="taskinator application screenshot">
+                     <div class="card-img-overlay">
+                        <p class="card-title">Taskinator</p>
+                        <p class="card-info">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat et aperiam neque alias officiis omnis minima aut praesentium. 
+                          Quasi non eius numquam placeat nesciunt iusto consectetur ipsam nemo distinctio aspernatur.
+                        </p>
+                        <a class="link" target="_blank" href="https://crossigarcia.github.io/taskinator/">go to application</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col mb-4">
+                  <div class="card bd-dark" id="robot-gladiators">
                      <img src="./assets/images/robot-gladiators-app.jpg" class="card-img" alt="robot gladiators application screenshot">
                      <div class="card-img-overlay">
                         <p class="card-title">Robot Gladiator's</p>
@@ -113,7 +145,7 @@
                            An application that runs a text based fighting game, the user can input a name 
                            for their fighting robot and then go into battle with randomly selected oponents.
                         </p>
-                        <button class="btn btn-light">go to application</button>
+                        <a class="link" target="_blank" href="https://crossigarcia.github.io/robot-gladiators/">go to application</a>
                      </div>
                   </div>
                </div>
@@ -123,10 +155,8 @@
       <footer></footer>
 
    </main>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
    <script src="assets/js/script.js"></script>
 </body>
 </html>

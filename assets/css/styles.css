@@ -3,7 +3,7 @@
 }
 
 :root {
-   --island-blue: #2febdb;
+   --island-blue: #2ddbcd;
    /* rgb: 47, 235, 219 */
    --yellow-green: #e4ff6b;
    /* rgb: 228, 255, 107 */
@@ -21,20 +21,64 @@
    top: 0;
 }
 
+#self-portrait {
+   max-width: 200px;
+   max-height: 200px;
+}
+
 h1 {
    font-family: 'Righteous', sans-serif;
+}
+
+#my-name {
+   text-decoration: none;
+   color: var(--coral);
 }
 
 #left-content {
    padding: 40px 10px 0 10px;
 }
 
-#right-panel {
+.text-title {
+   margin-top: 35px;
+   margin-bottom: 5px;
+   color: var(--coral);
+}
+
+.dropdown {
+   margin: 35px 0 35px 0;
+}
+
+#dropdownMenu2 {
+   color: var(--coral);
+   border: 2px solid var(--yellow-green);
+}
+
+#dropdownMenu2:hover {
+   background-color: var(--yellow-green);
+}
+
+.form-group {
+   margin-top: 15px;
+}
+
+.submit-btn {
    margin-top: 20px;
+   color: var(--coral);
+}
+
+.submit-btn:hover {
+   background-color: var(--yellow-green);
+}
+
+#right-panel {
+   padding-top: 20px;
+   background: rgba(228, 255, 107, 0.7);
 }
 
 .card {
    margin: 5px;
+   box-shadow: 0 4px 8px 0 rgba(1, 122, 112, 0.2), 0 6px 20px 0 rgba(1, 122, 112, 0.19);
 }
 
 .card-img-overlay {
@@ -47,10 +91,10 @@ h1 {
 } 
 
 .link {
-   color: var(--dark-island);
-   background-color: var(--island-blue);
-   padding: 15px;
-   border-radius: 50px;
+   color: var(--coral);
+   background-color: white;
+   padding: 8px;
+   border-radius: 10px;
    text-decoration: none;
 }
 
@@ -71,5 +115,5 @@ h1 {
 
 .link:hover {
    color: var(--dark-island);
-   background-color: white;
+   background-color: var(--yellow-green);
 }
