@@ -19,6 +19,7 @@
    position: -webkit-sticky; 
    position: sticky;
    top: 0;
+   padding: 20px 10px 0 10px;
 }
 
 #self-portrait {
@@ -35,14 +36,14 @@ h1 {
    color: var(--coral);
 }
 
-#left-content {
-   padding: 40px 10px 0 10px;
-}
-
 .text-title {
    margin-top: 35px;
    margin-bottom: 5px;
    color: var(--coral);
+}
+
+#left-panel p {
+   text-align: justify;
 }
 
 .dropdown {
@@ -65,6 +66,7 @@ h1 {
 .submit-btn {
    margin-top: 20px;
    color: var(--coral);
+   margin-bottom: 10px;
 }
 
 .submit-btn:hover {
@@ -73,6 +75,7 @@ h1 {
 
 #right-panel {
    padding-top: 20px;
+   padding-bottom: 20px;
    background: rgba(228, 255, 107, 0.7);
 }
 
@@ -117,3 +120,10 @@ h1 {
    color: var(--dark-island);
    background-color: var(--yellow-green);
 }
+
+
+footer {
+   background: rgba(228, 255, 107, 1);
+}
+
+/* need media query for hover elements on smaller screens */
