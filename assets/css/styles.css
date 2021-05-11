@@ -59,7 +59,7 @@ h1 {
 
 #dropdownMenu2 {
    color: var(--coral);
-   border: 6px double var(--yellow-green);
+   border: 1px solid var(--coral);
    padding-right: 95px;
    padding-left: 110px;
    font-size: 25px;
