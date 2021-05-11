@@ -14,7 +14,7 @@
 }
 
 #left-panel {
-   background-color: rgb(245, 245, 245);
+   background-color: rgb(247, 245, 245);
 }
 
 #left-content {
@@ -103,7 +103,7 @@ h1 {
 
 .card {
    margin: 5px;
-   box-shadow: 0 4px 8px 0 rgba(1, 122, 112, 0.2), 0 6px 20px 0 rgba(1, 122, 112, 0.19);
+   box-shadow: 0 4px 8px 0 rgba(1, 122, 112, 0.3), 0 6px 20px 0 rgba(1, 122, 112, 0.25);
 }
 
 .card-img-overlay {
