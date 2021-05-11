@@ -3,16 +3,18 @@
 }
 
 :root {
-   --island-blue: #2ddbcd;
-   /* rgb: 47, 235, 219 */
+   --island-blue: #0aada0;
    --yellow-green: #e4ff6b;
    /* rgb: 228, 255, 107 */
-   --hot-pink: #ff4f9b;
-   /* rgb: 255, 79, 155 */
+   --light-green: #d6f1c7;
    --coral: #ff809d;
    /*rgb: 255, 128, 157 */
    --dark-island: #017a70;
    /*rgb: 1, 122, 112*/
+}
+
+#left-panel {
+   background-color: var(--light-pink);
 }
 
 #left-content {
@@ -22,9 +24,10 @@
    padding: 20px 10px 0 10px;
 }
 
-#self-portrait {
-   max-width: 200px;
-   max-height: 200px;
+#about-me {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 h1 {
@@ -42,41 +45,60 @@ h1 {
    color: var(--coral);
 }
 
-#left-panel p {
+#about-me p {
    text-align: justify;
+   padding: 15px;
+   color: var(--island-blue);
 }
 
 .dropdown {
-   margin: 35px 0 35px 0;
+   margin: 10px;
+   display: flex;
+   justify-content: center;
 }
 
 #dropdownMenu2 {
    color: var(--coral);
-   border: 2px solid var(--yellow-green);
+   border: 6px double var(--yellow-green);
+   padding-right: 95px;
+   padding-left: 110px;
+   font-size: 25px;
+   text-align: center;
 }
 
 #dropdownMenu2:hover {
    background-color: var(--yellow-green);
 }
 
-.form-group {
-   margin-top: 15px;
+#contact {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
-.submit-btn {
-   margin-top: 20px;
-   color: var(--coral);
+.contact-link {
+   text-decoration: none;
+   color: var(--island-blue);
+   font-size: 18px;
+   border-bottom: 2px solid var(--yellow-green);
    margin-bottom: 10px;
 }
 
-.submit-btn:hover {
-   background-color: var(--yellow-green);
+.contact-link:hover {
+   color: var(--coral);
+   font-size: 20px;
 }
 
 #right-panel {
    padding-top: 20px;
    padding-bottom: 20px;
-   background: rgba(228, 255, 107, 0.7);
+   background:
+   radial-gradient(var(--yellow-green) 15%, transparent 16%) 0 0,
+   radial-gradient(var(--yellow-green) 15%, transparent 16%) 8px 8px,
+   radial-gradient(rgba(1, 122, 112, 0.1) 15%, transparent 20%) 0 1px,
+   radial-gradient(rgba(1, 122, 112, 0.1) 15%, transparent 20%) 8px 9px;
+   background-color:#bbfff9;
+   background-size:16px 16px;
 }
 
 .card {
