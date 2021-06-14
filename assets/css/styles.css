@@ -14,7 +14,7 @@
 }
 
 #left-panel {
-   background-color: rgb(247, 245, 245);
+   background-color: rgba(33, 38, 35, 1);
 }
 
 #left-content {
@@ -36,19 +36,19 @@ h1 {
 
 #my-name {
    text-decoration: none;
-   color: var(--coral);
+   color: #c0f28d;
 }
 
 .text-title {
    margin-top: 35px;
    margin-bottom: 5px;
-   color: var(--coral);
+   color: #c0f28d;
 }
 
 #about-me p {
    text-align: justify;
    padding: 15px;
-   color: var(--island-blue);
+   color: #8ebf5c;
 }
 
 .dropdown {
@@ -58,8 +58,8 @@ h1 {
 }
 
 #dropdownMenu2 {
-   color: var(--coral);
-   border: 1px solid var(--coral);
+   color: #c0f28d;
+   border: 1px solid #c0f28d;
    padding-right: 95px;
    padding-left: 110px;
    font-size: 25px;
@@ -67,7 +67,7 @@ h1 {
 }
 
 #dropdownMenu2:hover {
-   background-color: var(--yellow-green);
+   background-color: #ff809d;
 }
 
 #contact {
@@ -78,7 +78,7 @@ h1 {
 
 .contact-link {
    text-decoration: none;
-   color: var(--island-blue);
+   color: #8ebf5c;
    font-size: 18px;
    margin-bottom: 10px;
 }
@@ -92,17 +92,17 @@ h1 {
    padding-top: 20px;
    padding-bottom: 20px;
    background:
-   radial-gradient(var(--yellow-green) 15%, transparent 16%) 0 0,
-   radial-gradient(var(--yellow-green) 15%, transparent 16%) 8px 8px,
-   radial-gradient(rgba(1, 122, 112, 0.1) 15%, transparent 20%) 0 1px,
-   radial-gradient(rgba(1, 122, 112, 0.1) 15%, transparent 20%) 8px 9px;
-   background-color:#c3ece9;
+   radial-gradient(rgba(9, 10, 9, 1) 15%, transparent 16%) 0 0,
+   radial-gradient(rgba(9, 10, 9, 1) 15%, transparent 16%) 8px 8px,
+   radial-gradient(rgba(80, 94, 80, 0.1) 15%, transparent 20%) 0 1px,
+   radial-gradient(rgba(80, 94, 80, 0.1) 15%, transparent 20%) 8px 9px;
+   background-color:rgba(33, 38, 35, 1);
    background-size:16px 16px; 
 }
 
 .card {
    margin: 5px;
-   box-shadow: 0 4px 8px 0 rgba(1, 122, 112, 0.3), 0 6px 20px 0 rgba(1, 122, 112, 0.25);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .card-img-overlay {
